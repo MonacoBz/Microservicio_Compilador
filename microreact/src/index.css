@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+textarea{
+    resize: none;
+}
+.padre{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 1000px;
+    justify-content: center;
+}
+table,th,td{
+    width: 300px;
+    height: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.hijoD{
+    padding: 10px;
+}
+.botones{
+    margin-left: 25px;
+}
+.hijo{
+    margin-top: 35px;
+    width: 300px;
+}
+.hijoT{
+    width: 500px;
+}
+.contenedor{
+    padding-bottom: 10px;
+}
+.pag{
+    margin-top: -9px;
+    margin-left: -30px;
+}
