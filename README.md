@@ -43,5 +43,16 @@ Este microservicio verifica que el texto no contenga errores semánticos y que l
 
 Recibe la lista de tokens y va creando los nodos del árbol según la jerarquía de los operadores.
 
-##parser 
+## parser
+
+Este microservicio se encarga de verificar que las variables declaradas sean correctas, por ejemplo, evita que una variable de 32 bits intente almacenar una de 64 bits.
+
+**Nota:** No se soporta casteo explícito, ya que mi compilador no trabaja de esa forma.
+---
+
+Las carpetas **AppWebCompilador4** y **microreact** contienen el código del frontend.
+
+La diferencia es que **AppWebCompilador4** usa HTML, CSS y JavaScript vanilla,  
+mientras que **microreact** es la misma aplicación pero desarrollada con el framework **React**.
+
 
